@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  max-width: 390px;
+  height: 844px;
+  display: flex;
+  background-color: #1A1B21;
+ 
+
+
+  /* THIS CENTERS THE WHOLE APP IN THE MIDDLE OF THE PAGE */
+  flex-direction:column;
+  margin: 0px auto;
+ 
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Details--ctn {
+  margin-top: 240px;
+}
+
+.Details--ctn > h1 {
+  color: #F4E4D5;
+  font-size: 36px;
+  align-self: center;
+  margin-bottom: 0px;;
+  font-weight: 800;
+}
+
+.Details--ctn > h2 {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+  align-self: center;
+  margin-top: 0;
+  
+}
+
+.Details--ctn > h4 {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  align-self: center;
+  margin-top: 0;
+}
+
+.Details--email--button {
+  width: 260px;
+  height: 42px;
+  background-color: #1A1B21;
+  border: 1px solid #D1D5DB; 
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.Details--email--button:hover {
+  background-color: #EBAF83;
+  color: #1A1B21;
+}
+
+.Details--email--button > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+/* AVATAR SECTION */
+
+.Avatar--ctn {
+  position: relative;
+}
+.Avatar--img-ctn {
+  position: absolute;
+  z-index: 8;
+  left: 21%;
+}
+
+.AvatarIcon {
+  margin-top: 25px;
+  width: 230px;
+  height: 230px;
+ 
+}
+
+.Avatar-ColorOne {
+  position: absolute;
+  height: 155px;
+  width: 100%;
+  background-color: #EBAF83;
+  top: 0;
+}
+
+
+/* MAIN DETAILS SECTION */
+
+.Main--ctn {
+  width: 74%;
+  height: 469px;
+  background-color: #1A1B21;
+  color: #FFFFFF;
+  align-self: center;
+ justify-content: center;
+ text-align: left;
+ line-height: 150%;
+}
+
+
+.Main--about > h3, 
+.Main--skills > h3 {
+font-weight: 600;
+font-size: 18px;
+margin-bottom: 0;
+margin-top: 30px;
+
+}
+
+.Main--about > p, 
+.Main--skills > p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 3px;
+  }
+
+
+
+
+/* FOOTER SECTION */
+.Footer--ctn {
+  width: 100%;
+  height: 80px;
+  background-color: #EBAF83;
+
+}
+
+.Footer--ctn > a > img {
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+}
+
+
+
+
